@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #333;
+}
+
+main h2 {
+  color: #2d3af6 !important;
+}
+
+
+ul.list-unstyled li, .list-group-item {
+  font-size: 1.1rem;
+}
+
+/* Imagen de perfil */
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Botón "Descargar CV" */
+header .btn {
+  margin-top: 10px;
+}
+
+/* Tarjetas de los proyectos */
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+footer .btn {
+  margin: 5px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  header img {
+      width: 20px;
+      height: 20px;
+  }
+  .list-group-item {
+      font-size: 1rem;
+  }
+  .card-img-top {
+      height: 150px;
+  }
+}

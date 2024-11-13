@@ -82,7 +82,7 @@
               <h5>Desarrollador Frontend - Empresa Y</h5>
               <p>Junio 2022 - Enero 2023</p>
               <p>
-                Diseño y desarrollo de interfaces de usuario paginas web
+                Diseño y desarrollo de interfaces de usuario páginas web
                 utilizando HTML, CSS, y JavaScript.
               </p>
             </li>
@@ -113,14 +113,21 @@
                 <img
                   src="img/taxi service.png"
                   class="card-img-top"
-                  alt="Proyecto 1"
+                  alt="Proyecto Web Taxi Service"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Proyecto Web 1</h5>
+                  <h5 class="card-title">Proyecto Web Taxi Service</h5>
                   <p class="card-text">
                     Una página web para gestionar y realizar reservaciones de
                     los servicios de taxi.
                   </p>
+                  <button
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#projectModal1"
+                  >
+                    Ver más
+                  </button>
                 </div>
               </div>
             </div>
@@ -130,15 +137,21 @@
                 <img
                   src="img/criaturas misticas.png"
                   class="card-img-top"
-                  alt="Proyecto 1"
+                  alt="Proyecto Web Criaturas Misticas"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Proyecto Web 1</h5>
+                  <h5 class="card-title">Proyecto Web Criaturas Misticas</h5>
                   <p class="card-text">
-                    Una Pagina web en donde se puede ver informacion sobre
-                    ciaturas misticas en donde se puede selecccionar tu criatura
-                    favorita.
+                    Una página web donde se puede ver información sobre
+                    criaturas místicas y seleccionar tu criatura favorita.
                   </p>
+                  <button
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#projectModal2"
+                  >
+                    Ver más
+                  </button>
                 </div>
               </div>
             </div>
@@ -148,14 +161,21 @@
                 <img
                   src="img/clothing store.png"
                   class="card-img-top"
-                  alt="Proyecto 2"
+                  alt="Proyecto Web Clothing Store"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Proyecto Web 2</h5>
+                  <h5 class="card-title">Proyecto Web Clothing Store</h5>
                   <p class="card-text">
-                    Una pagina web en donde se pueden hacer compras de ropa de
-                    marca en linea.
+                    Una página web donde se pueden hacer compras de ropa de
+                    marca en línea.
                   </p>
+                  <button
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#projectModal3"
+                  >
+                    Ver más
+                  </button>
                 </div>
               </div>
             </div>
@@ -163,6 +183,105 @@
         </div>
       </section>
     </main>
+
+    <!-- Modales -->
+
+    <!-- Modal Proyecto 1 -->
+    <div
+      class="modal fade"
+      id="projectModal1"
+      tabindex="-1"
+      aria-labelledby="projectModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModal1Label"> Página Web Taxi Service</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <p>Una aplicación web para gestionar reservas de taxi en tiempo real, permitiendo a los usuarios realizar solicitudes, verificar disponibilidad y hacer pagos en línea.</p>
+            <ul>
+              <li><strong>Frontend:</strong> React.js, Bootstrap</li>
+              <li><strong>Backend:</strong> Node.js, Express</li>
+              <li><strong>Base de Datos:</strong> MongoDB</li>
+              <li><strong>Características:</strong></li>
+              <ul>
+                <li>Interfaz intuitiva para usuarios y administradores.</li>
+                <li>Integración de pagos con API de Stripe.</li>
+                <li>Geolocalización de taxis con API de Google Maps.</li>
+              </ul>
+            </ul>
+            <a href="https://alondraah.github.io/Taxi_2024/" class="btn btn-secondary mt-3">Ver Página</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Proyecto 2 -->
+    <div
+      class="modal fade"
+      id="projectModal2"
+      tabindex="-1"
+      aria-labelledby="projectModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModal2Label"> Página Web Criaturas Misticas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <p>Una página web interactiva que permite al usuario conocer sobre diferentes criaturas místicas, ver su descripción, y elegir su favorita.</p>
+            <ul>
+              <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+              <li><strong>Características:</strong></li>
+              <ul>
+                <li>Vista en tarjetas de criaturas con información detallada.</li>
+                <li>Funcionalidad para seleccionar criaturas favoritas y compararlas.</li>
+                <li>Filtros por tipo de criatura y hábitat.</li>
+              </ul>
+            </ul>
+            <a href="https://alondraah.github.io/Criaturas_Misticas/" class="btn btn-secondary mt-3">Ver Página</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Proyecto 3 -->
+    <div
+      class="modal fade"
+      id="projectModal3"
+      tabindex="-1"
+      aria-labelledby="projectModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="projectModal3Label"> Página Web Clothing Store</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <p>Una tienda online de ropa de marca, que permite a los usuarios ver productos, agregar al carrito y proceder al pago.</p>
+            <ul>
+              <li><strong>Frontend:</strong> React.js, Bootstrap</li>
+              <li><strong>Backend:</strong> Node.js, Express</li>
+              <li><strong>Base de Datos:</strong> MongoDB</li>
+              <li><strong>Características:</strong></li>
+              <ul>
+                <li>Catálogo de productos con filtros y categorías.</li>
+                <li>Funcionalidad de carrito de compras y pasarela de pagos integrada.</li>
+                <li>Registro de usuarios y gestión de pedidos.</li>
+              </ul>
+            </ul>
+            <a href="https://alondraah.github.io/Clothing-store/" class="btn btn-secondary mt-3">Ver Página</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Pie de Página -->
     <footer class="bg-dark text-white text-center py-3">
